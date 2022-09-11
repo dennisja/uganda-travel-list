@@ -1,4 +1,5 @@
 const radii = {
+  xs: 'var( --radii-xs)',
   s: 'var( --radii-s)',
   m: 'var(--radii-m)',
   round: 'var(--radii-50)',

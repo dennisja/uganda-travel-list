@@ -16,6 +16,8 @@ const GlobalStyles = () => {
         --border-color-primary: #3c3f44;
         --box-shadow-color: #131517;
         --green: rgb(07, 235, 07);
+        --grey-2: #252525;
+        --grey-5: #8c8c8c;
 
         --space-xxs: 2px;
         --space-xs: 4px;

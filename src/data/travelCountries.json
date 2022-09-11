@@ -1,0 +1,392 @@
+[
+  {
+    "countryName": "Antigua and Barbuda",
+    "duration": { "value": 1, "unit": "month" },
+    "note": "",
+    "countryCode": "ag"
+  },
+  {
+    "countryName": "Barbados",
+    "duration": { "value": 6, "unit": "month" },
+    "note": "",
+    "countryCode": "bb"
+  },
+  {
+    "countryName": "Burundi",
+    "duration": { "value": "", "unit": "" },
+    "note": "",
+    "countryCode": "bi"
+  },
+  {
+    "countryName": "Bermuda",
+    "duration": { "value": 6, "unit": "month" },
+    "note": "",
+    "countryCode": "bm"
+  },
+  {
+    "countryName": "Bahamas",
+    "duration": { "value": 3, "unit": "month" },
+    "note": "",
+    "countryCode": "bs"
+  },
+  {
+    "countryName": "Botswana",
+    "duration": { "value": 3, "unit": "month" },
+    "note": "",
+    "countryCode": "bw"
+  },
+  {
+    "countryName": "Belize",
+    "duration": { "value": 1, "unit": "month" },
+    "note": "",
+    "countryCode": "bz"
+  },
+  {
+    "countryName": "Cook Islands",
+    "duration": { "value": 21, "unit": "day" },
+    "note": "",
+    "countryCode": "ck"
+  },
+  {
+    "countryName": "Dominica",
+    "duration": { "value": 21, "unit": "day" },
+    "note": "",
+    "countryCode": "dm"
+  },
+  {
+    "countryName": "Ecuador",
+    "duration": { "value": 3, "unit": "month" },
+    "note": "",
+    "countryCode": "ec"
+  },
+  {
+    "countryName": "Eritrea",
+    "duration": { "value": 1, "unit": "month" },
+    "note": "",
+    "countryCode": "er"
+  },
+  {
+    "countryName": "Fiji",
+    "duration": { "value": 4, "unit": "month" },
+    "note": "",
+    "countryCode": "fj"
+  },
+  {
+    "countryName": "Federated States of Micronesia",
+    "duration": { "value": 1, "unit": "month" },
+    "note": "",
+    "countryCode": "fm"
+  },
+  {
+    "countryName": "Grenada",
+    "duration": { "value": 3, "unit": "month" },
+    "note": "",
+    "countryCode": "gd"
+  },
+  {
+    "countryName": "Gambia",
+    "duration": { "value": 3, "unit": "month" },
+    "note": "",
+    "countryCode": "gm"
+  },
+  {
+    "countryName": "Hong Kong",
+    "duration": { "value": 1, "unit": "month" },
+    "note": "",
+    "countryCode": "hk"
+  },
+  {
+    "countryName": "Haiti",
+    "duration": { "value": 3, "unit": "month" },
+    "note": "",
+    "countryCode": "ht"
+  },
+  {
+    "countryName": "Jamaica",
+    "duration": { "value": 6, "unit": "month" },
+    "note": "",
+    "countryCode": "jm"
+  },
+  {
+    "countryName": "Kenya",
+    "duration": { "value": 3, "unit": "month" },
+    "note": "",
+    "countryCode": "ke"
+  },
+  {
+    "countryName": "Saint Kitts and Nevis",
+    "duration": { "value": 3, "unit": "month" },
+    "note": "",
+    "countryCode": "kn"
+  },
+  {
+    "countryName": "Lesotho",
+    "duration": { "value": 14, "unit": "day" },
+    "note": "",
+    "countryCode": "ls"
+  },
+  {
+    "countryName": "Montserrat",
+    "duration": { "value": 3, "unit": "month" },
+    "note": "",
+    "countryCode": "ms"
+  },
+  {
+    "countryName": "Mauritius",
+    "duration": { "value": 2, "unit": "month" },
+    "note": "",
+    "countryCode": "mu"
+  },
+  {
+    "countryName": "Malawi",
+    "duration": { "value": 3, "unit": "month" },
+    "note": "",
+    "countryCode": "mw"
+  },
+  {
+    "countryName": "Malaysia",
+    "duration": { "value": 2, "unit": "month" },
+    "note": "",
+    "countryCode": "my"
+  },
+  {
+    "countryName": "Niue",
+    "duration": { "value": 1, "unit": "month" },
+    "note": "",
+    "countryCode": "nu"
+  },
+  {
+    "countryName": "Philippines",
+    "duration": { "value": 21, "unit": "day" },
+    "note": "",
+    "countryCode": "ph"
+  },
+  {
+    "countryName": "Kosovo",
+    "duration": { "value": 3, "unit": "month" },
+    "note": "",
+    "countryCode": "xk"
+  },
+  {
+    "countryName": "Rwanda",
+    "duration": { "value": 6, "unit": "month" },
+    "note": "",
+    "countryCode": "rw"
+  },
+  {
+    "countryName": "Singapore",
+    "duration": { "value": 1, "unit": "month" },
+    "note": "",
+    "countryCode": "sg"
+  },
+  {
+    "countryName": "El Salvador",
+    "duration": { "value": "", "unit": "" },
+    "note": "",
+    "countryCode": "sv"
+  },
+  {
+    "countryName": "Swaziland",
+    "duration": { "value": 1, "unit": "month" },
+    "note": "",
+    "countryCode": "sz"
+  },
+  {
+    "countryName": "Turks and Caicos Islands",
+    "duration": { "value": 1, "unit": "month" },
+    "note": "",
+    "countryCode": "tc"
+  },
+  {
+    "countryName": "Tanzania",
+    "duration": { "value": 3, "unit": "month" },
+    "note": "",
+    "countryCode": "tz"
+  },
+  {
+    "countryName": "Saint Vincent and the Grenadines",
+    "duration": { "value": 1, "unit": "month" },
+    "note": "",
+    "countryCode": "vc"
+  },
+  {
+    "countryName": "Virgin Islands (British)",
+    "duration": { "value": "", "unit": "" },
+    "note": "",
+    "countryCode": "vg"
+  },
+  {
+    "countryName": "Vanuatu",
+    "duration": { "value": 1, "unit": "month" },
+    "note": "",
+    "countryCode": "vu"
+  },
+  {
+    "countryName": "Zambia",
+    "duration": { "value": 3, "unit": "month" },
+    "note": "",
+    "countryCode": "zm"
+  },
+  {
+    "countryName": "Nicaragua",
+    "duration": { "value": "", "unit": "" },
+    "note": "",
+    "countryCode": "ni"
+  },
+  {
+    "countryName": "Armenia",
+    "duration": { "value": 120, "unit": "day" },
+    "note": "",
+    "countryCode": "am"
+  },
+  {
+    "countryName": "Azerbaijan",
+    "duration": { "value": 1, "unit": "month" },
+    "note": "",
+    "countryCode": "az"
+  },
+  {
+    "countryName": "Bangladesh",
+    "duration": { "value": 3, "unit": "month" },
+    "note": "",
+    "countryCode": "bd"
+  },
+  {
+    "countryName": "Belarus",
+    "duration": { "value": "", "unit": "" },
+    "note": "",
+    "countryCode": "by"
+  },
+  {
+    "countryName": "Djibouti",
+    "duration": { "value": 1, "unit": "month" },
+    "note": "",
+    "countryCode": "dj"
+  },
+  {
+    "countryName": "Egypt",
+    "duration": { "value": 15, "unit": "day" },
+    "note": "only valid for south Sinai resorts ONLY",
+    "countryCode": "eg"
+  },
+  {
+    "countryName": "Georgia",
+    "duration": { "value": "", "unit": "" },
+    "note": "",
+    "countryCode": "ge"
+  },
+  {
+    "countryName": "Iraq",
+    "duration": { "value": "", "unit": "" },
+    "note": "",
+    "countryCode": "iq"
+  },
+  {
+    "countryName": "Jordan",
+    "duration": { "value": "", "unit": "" },
+    "note": "",
+    "countryCode": "jo"
+  },
+  {
+    "countryName": "Cambodia",
+    "duration": { "value": 1, "unit": "month" },
+    "note": "",
+    "countryCode": "kh"
+  },
+  {
+    "countryName": "Comoros",
+    "duration": { "value": "", "unit": "" },
+    "note": "",
+    "countryCode": "km"
+  },
+  {
+    "countryName": "Laos",
+    "duration": { "value": 1, "unit": "month" },
+    "note": "",
+    "countryCode": "la"
+  },
+  {
+    "countryName": "Saint Lucia",
+    "duration": { "value": 6, "unit": "week" },
+    "note": "",
+    "countryCode": "lc"
+  },
+  {
+    "countryName": "Madagascar",
+    "duration": { "value": 3, "unit": "month" },
+    "note": "",
+    "countryCode": "mg"
+  },
+  {
+    "countryName": "Macau",
+    "duration": { "value": "", "unit": "" },
+    "note": "",
+    "countryCode": "mo"
+  },
+  {
+    "countryName": "Maldives",
+    "duration": { "value": 30, "unit": "day" },
+    "note": "",
+    "countryCode": "mv"
+  },
+  {
+    "countryName": "Mozambique",
+    "duration": { "value": "", "unit": "" },
+    "note": "",
+    "countryCode": "mz"
+  },
+  {
+    "countryName": "Nepal",
+    "duration": { "value": "", "unit": "" },
+    "note": "",
+    "countryCode": "np"
+  },
+  {
+    "countryName": "Nauru",
+    "duration": { "value": "", "unit": "" },
+    "note": "",
+    "countryCode": "nr"
+  },
+  {
+    "countryName": "Palau",
+    "duration": { "value": 1, "unit": "month" },
+    "note": "",
+    "countryCode": "pw"
+  },
+  {
+    "countryName": "Seychelles",
+    "duration": { "value": 1, "unit": "month" },
+    "note": "",
+    "countryCode": "sc"
+  },
+  {
+    "countryName": "Sao Tome and Principe",
+    "duration": { "value": 1, "unit": "month" },
+    "note": "reserve with airline",
+    "countryCode": "st"
+  },
+  {
+    "countryName": "Togo",
+    "duration": { "value": 1, "unit": "week" },
+    "note": "",
+    "countryCode": "tg"
+  },
+  {
+    "countryName": "East Timor",
+    "duration": { "value": 1, "unit": "month" },
+    "note": "",
+    "countryCode": "tl"
+  },
+  {
+    "countryName": "Tuvalu",
+    "duration": { "value": 1, "unit": "month" },
+    "note": "",
+    "countryCode": "tv"
+  },
+  {
+    "countryName": "Samoa",
+    "duration": { "value": 2, "unit": "month" },
+    "note": "",
+    "countryCode": "ws"
+  }
+]

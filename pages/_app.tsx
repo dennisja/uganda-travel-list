@@ -4,7 +4,7 @@ import { GlobalStyles } from '../src/components/GlobalStyles';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
       <GlobalStyles />
     </>
   );

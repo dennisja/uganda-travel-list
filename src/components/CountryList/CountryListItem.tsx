@@ -4,6 +4,7 @@ import { CountryDetails } from '../../types';
 import { Card } from '../ui/Card';
 import { FlagIcon, FlagIconName } from '../ui/FlagIcon';
 import { Quote } from '../ui/Quote';
+import { radii } from '../ui/tokens/radii';
 import { space } from '../ui/tokens/space';
 
 type CountryListItemProps = {
@@ -19,7 +20,8 @@ const CountryListItem: FC<CountryListItemProps> = ({ country }) => {
             countryCode={country.countryCode as FlagIconName}
             height={32}
             width={32}
-            className='flag'
+            className='flag' // TODO: find out why these styles are removed
+            style={{ borderRadius: '50%' }}
           />
         </div>
         <div className='country-name'>{country.countryName}</div>
@@ -29,6 +31,7 @@ const CountryListItem: FC<CountryListItemProps> = ({ country }) => {
         <div className='duration-container'>
           <span>Duration:</span> {country.duration.value}{' '}
           {country.duration.unit}
+          {country.duration.value > 1 ? 's' : ''}
         </div>
       )}
 

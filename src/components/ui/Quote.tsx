@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { radii } from './tokens';
+import { radii } from './tokens/radii';
 import { colors } from './tokens/colors';
 import { space } from './tokens/space';
 

@@ -13,8 +13,8 @@ const Quote: FC<QuoteProps> = ({ children, ...props }) => {
         div {
           border-left: 3px solid ${colors.green};
           padding: ${space.m};
-          fontstyle: italic;
-          fontweight: bolder;
+          font-style: italic;
+          font-weight: bolder;
           border-radius: ${radii.xs};
         }
       `}</style>

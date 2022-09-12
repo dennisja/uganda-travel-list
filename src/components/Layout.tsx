@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { ChangeEventHandler, FC, ReactNode } from 'react';
+import { ShareButton } from './ShareButton';
 import { Navigation } from './Navigation';
 
 type LayoutProps = {
@@ -23,6 +24,7 @@ const Layout: FC<LayoutProps> = ({ children, searchTerm, onSearch }) => {
         <Navigation onSearch={onSearch} searchTerm={searchTerm} />
         {children}
       </main>
+      <ShareButton />
       <style jsx>
         {`
           main {

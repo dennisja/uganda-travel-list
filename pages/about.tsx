@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <section>
-        <Quote style={{ width: '50%' }}>
+        <Quote style={{ width: 'max(95vw, 50%)' }}>
           To travel to some countries, you will either need a direct flight or
           make sure that your connecting flight is in a country that allows you
           to visit without a VISA.

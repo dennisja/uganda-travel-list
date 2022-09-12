@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "cross-env NEXT_PUBLIC_COMMIT_SHA=$COMMIT_REF next build",
     "start": "next start",
     "lint": "next lint",
     "generate:flag-sprite": "node scripts/generateFlagSprite.js",
@@ -12,6 +12,8 @@
     "generate:data": "yarn generate:flag-sprite && yarn generate:countryDataFromTweet"
   },
   "dependencies": {
+    "@sentry/react": "^7.12.1",
+    "@sentry/tracing": "^7.12.1",
     "next": "12.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -20,6 +22,7 @@
     "@types/node": "18.6.3",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
+    "cross-env": "^7.0.3",
     "eslint": "8.21.0",
     "eslint-config-next": "12.2.3",
     "jsdom": "^20.0.0",

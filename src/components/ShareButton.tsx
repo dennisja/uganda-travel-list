@@ -1,3 +1,4 @@
+import { captureSentryException } from '../utils/sentry';
 import { Icon } from './ui/Icon';
 import { colors } from './ui/tokens/colors';
 import { radii } from './ui/tokens/radii';
@@ -22,7 +23,7 @@ const ShareButton = () => {
       // AbortError is thrown when someone cancels a share
       if (error instanceof Error && error.name !== 'AbortError') {
         alert('An error occurred when sharing message');
-        // TODO: report this to sentry
+        captureSentryException(error);
       }
     }
   };

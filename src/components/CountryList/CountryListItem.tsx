@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-import { CountryDetails } from '../../types';
+import { CountryDetails } from '../../utils/types';
 import { Card } from '../ui/Card';
 import { FlagIcon, FlagIconName } from '../ui/FlagIcon';
 import { Quote } from '../ui/Quote';

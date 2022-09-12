@@ -1,4 +1,4 @@
-import travelCountries from '../src/data/travelCountries.json';
+import travelCountries from '../data/travelCountries.json';
 
 type CountryDetails = typeof travelCountries[0];
 

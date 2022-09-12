@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { CountryDetails } from '../../types';
+import { CountryDetails } from '../../utils/types';
 import { CountryListContainer } from './Container';
 import { CountryListItem } from './CountryListItem';
 

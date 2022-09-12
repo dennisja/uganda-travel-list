@@ -1,6 +1,6 @@
 import { ChangeEvent, useState } from 'react';
 import travelCountries from '../data/travelCountries.json';
-import { CountryDetails } from '../types';
+import { CountryDetails } from '../utils/types';
 
 type UseCountriesResult = {
   countries: readonly CountryDetails[];

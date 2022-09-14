@@ -10,6 +10,7 @@ const travelCountriesCache = travelCountries.reduce(
     allCountries[currentCountry.countryCode] = true;
     return allCountries;
   },
+  {},
 );
 
 const XMLNS = 'http://www.w3.org/2000/svg';

@@ -27,6 +27,7 @@ const ShareButton = () => {
       }
     }
   };
+
   return (
     <>
       <button onClick={handleShare}>

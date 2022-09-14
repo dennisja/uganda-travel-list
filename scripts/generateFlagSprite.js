@@ -3,6 +3,15 @@ const glob = require('glob');
 const path = require('path');
 const fs = require('fs');
 
+const travelCountries = require('../src/data/travelCountries.json');
+
+const travelCountriesCache = travelCountries.reduce(
+  (allCountries, currentCountry) => {
+    allCountries[currentCountry.countryCode] = true;
+    return allCountries;
+  },
+);
+
 const XMLNS = 'http://www.w3.org/2000/svg';
 const XMLNS_X_LINK = 'http://www.w3.org/1999/xlink';
 const SVG_SPRITE_FILE_NAME = 'flags-sprite.svg';
@@ -25,6 +34,11 @@ const getFlagName = filePath => {
 
 const getSVGId = flagName => `flag-icons-${flagName}`;
 
+const isCountryInAllowedList = fileName => {
+  const flagName = getFlagName(fileName);
+  return flagName in travelCountriesCache;
+};
+
 const createSymbol = fileName => {
   const data = fs.readFileSync(fileName, 'utf8');
   const { document } = new JSDOM(data).window;
@@ -46,6 +60,8 @@ glob(path.join(__dirname, './flags/*.svg'), (err, fileNames) => {
   const defs = svgSprite.querySelector('defs');
 
   fileNames.forEach(fileName => {
+    if (!isCountryInAllowedList(fileName)) return;
+
     const symbol = createSymbol(fileName);
     defs.appendChild(symbol);
   });

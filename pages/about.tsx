@@ -2,9 +2,9 @@ import type { NextPage } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Layout } from '../src/components/Layout';
-import { OriginalTweet } from '../src/components/OriginalTweet';
 import { Icon } from '../src/components/ui/Icon';
 import { Quote } from '../src/components/ui/Quote';
+import { colors } from '../src/components/ui/tokens/colors';
 import { radii } from '../src/components/ui/tokens/radii';
 import { space } from '../src/components/ui/tokens/space';
 
@@ -45,8 +45,16 @@ const Home: NextPage = () => {
           <Icon iconName='github' style={{ width: '50px', height: '50px' }} />
         </Link>
 
-        <h3>This list wat extracted from this tweet</h3>
-        <OriginalTweet />
+        <h3>
+          This list wat extracted from this{' '}
+          <a
+            target='_blank'
+            rel='noreferrer'
+            href='https://twitter.com/jonahkirabo/status/1547127420842647553?ref_src=twsrc%5Etfw'
+          >
+            tweet
+          </a>
+        </h3>
       </section>
       <style jsx>
         {`
@@ -64,6 +72,15 @@ const Home: NextPage = () => {
           h3 {
             padding-bottom: ${space.l};
             padding-top: ${space.xxl};
+          }
+
+          h3 a {
+            text-decoration: none;
+            color: ${colors.green};
+          }
+
+          h3 a:hover {
+            text-decoration: underline;
           }
         `}
       </style>
